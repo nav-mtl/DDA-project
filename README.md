@@ -1,7 +1,7 @@
 # DDA-project
 Dockerized Django Angular project
 
-## Technologies Used
+### Technologies Used
 Django 2.1.5
 Django REST framework 3.9.0
 Angular 7.2
