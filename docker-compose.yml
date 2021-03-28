@@ -2,7 +2,13 @@ version: "3"
 
 services:
   db:
+    container_name: db
     image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
   dj:
     container_name: dj
     build: django
